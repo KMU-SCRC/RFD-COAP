@@ -1,0 +1,4 @@
+^D:\PROJECT\RFD\LIBCOAP-3.SYM
+ECHO LIBRARY libcoap-3-openssl > "Debug DLL\libcoap-3-openssl.def"
+ECHO EXPORTS >>  "Debug DLL\libcoap-3-openssl.def"
+TYPE D:\PROJECT\RFD\libcoap-3.sym >> "Debug DLL\libcoap-3-openssl.def"
